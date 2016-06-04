@@ -46,11 +46,11 @@ function winArray() {
     outDiv.textContent = 'Winner O! Winner O! Winner O! Winner O! Winner O!';
   } else if (winnerArray[2] === 'O' && winnerArray[4] === 'O' && winnerArray[6] === 'O') {
     outDiv.textContent = 'Winner O! Winner O! Winner O! Winner O! Winner O!';
-  } else if (winnerArray.length === 9 && winnerArray != null) {
-    outDiv.textContent = "The cats in the cradle and the silver spoon " +
-                          "Little boy blue and the man on the moon " +
-                          "When you comin home Dad, I don't when " +
-                          "But we'll get together then " +
+  } else if (winnerArray.length === 9) {
+    outDiv.textContent = "The cats in the cradle and the silver spoon, " +
+                          "Little boy blue and the man on the moon, " +
+                          "When you comin home Dad, I don't when, " +
+                          "But we'll get together then, " +
                           "You know well have a good time then";
   }
 }
